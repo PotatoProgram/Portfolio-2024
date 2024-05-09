@@ -9,7 +9,21 @@ body {
     src: url("Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf");
 }
 
-li:hover {
+a:hover {
     color: black;
-    background-color: white;
+    background-color: white; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.doc-renderer {
+    position: fixed;
+    margin: 1%; /*this is the most scuffed implementation of this i could have possibly done*/
+    background-color: #D9D9D9;
+    width: 95%;
+    height: 75%;
+    color: black;
 }
