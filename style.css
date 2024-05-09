@@ -20,7 +20,8 @@ a {
 }
 
 .doc-renderer {
-    position: fixed;
+    position: static;
+    left:auto; right:auto;
     margin: 1%; /*this is the most scuffed implementation of this i could have possibly done*/
     background-color: #D9D9D9;
     width: 95%;
@@ -35,4 +36,11 @@ a {
         color: blue;
         background-color: inherit;
     }
+}
+
+#pro-pic {
+    display: block;
+    max-width: 250px;
+    margin-right: 0;
+    margin-left: auto;
 }
