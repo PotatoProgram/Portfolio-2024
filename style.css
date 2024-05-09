@@ -1,5 +1,10 @@
 body {
     background-color: black;
-    font-family: monospace, sans-serif, ;
+    font-family: "Inconsolata", monospace, sans-serif;
     color: white;
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: url("Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf");
 }
