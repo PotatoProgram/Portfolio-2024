@@ -8,3 +8,8 @@ body {
     font-family: "Inconsolata";
     src: url("Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf");
 }
+
+li:hover {
+    color: black;
+    background-color: white;
+}
