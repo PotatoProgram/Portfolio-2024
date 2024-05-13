@@ -44,3 +44,9 @@ a {
     margin-right: 0;
     margin-left: auto;
 }
+
+p, li {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
