@@ -55,3 +55,15 @@ li {
     margin: 0;
     padding: 0;
 }
+
+.gallery-img {
+    overflow: hidden;
+    height:auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+
+.gallery-text {
+    padding: 5% 0;
+}
