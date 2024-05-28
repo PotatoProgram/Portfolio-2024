@@ -57,11 +57,10 @@ li {
 }
 
 .gallery-img {
-    overflow: hidden;
     height:auto;
-    max-height: 100%;
     width: auto;
-    max-width: 100%;
+    max-width: 33%;
+    overflow: hidden;
 }
 
 .gallery-text {
