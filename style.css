@@ -8,3 +8,61 @@ body {
     font-family: "Inconsolata";
     src: url("Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf");
 }
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.doc-renderer {
+    position: static;
+    left: auto;
+    right: auto;
+    margin: 1%;
+    /*this is the most scuffed implementation of this i could have possibly done*/
+    background-color: #D9D9D9;
+    width: 95%;
+    height: 75%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.doc-renderer {
+
+    a,
+    a:hover {
+        text-decoration: underline;
+        color: blue;
+        background-color: inherit;
+    }
+}
+
+#pro-pic {
+    display: block;
+    max-width: 250px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+p,
+li {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-img {
+    height:auto;
+    width: auto;
+    max-width: 33%;
+    overflow: hidden;
+}
+
+.gallery-text {
+    padding: 5% 0;
+}
