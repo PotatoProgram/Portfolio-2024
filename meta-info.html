@@ -37,18 +37,21 @@
     <a href="https://github.com/PotatoProgram/Portfolio-2024">View Source</a>
   </p>
   <p>Send Message</p>
-  <div class="doc-renderer container" style="padding: 5px;">
+  <div class="doc-renderer container" style="padding: 5px">
     <form id="message-send" onsubmit="saveInputs()">
-      <p class="field-description">Name:<input required type="text" title="name" /></p>
       <p class="field-description">
-        Email:<input type="email" title="email" required/>
+        Name:<input required type="text" title="name" />
       </p>
-      <p class="field-description">Age:<input type="number" title="age" required/></p>
       <p class="field-description">
-        Message:
+        Email:<input type="email" title="email" required />
       </p>
-        <textarea title="message"></textarea>
+      <p class="field-description">
+        Age:<input type="number" title="age" required />
+      </p>
+      <p class="field-description">Message:</p>
+      <textarea title="message" required></textarea>
       <input type="submit" name="submit" />
     </form>
+    <script src="script.js"></script>
   </div>
 </body>
