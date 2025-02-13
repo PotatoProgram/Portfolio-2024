@@ -6,10 +6,8 @@
 
 <body>
   <div class="constant">
-    <p id="welcome">
-      >Welcome, guest, to the Repository of Will Smith</p><p>>Please make a
-      selection:
-    </p>
+    <p id="welcome">>Welcome, guest, to the Repository of Will Smith</p>
+    <p>>Please make a selection:</p>
     <ol>
       <li>
         <a href="about-me.html"> About Me </a>
@@ -42,19 +40,15 @@
     <form id="message-send" onsubmit="saveInputs()">
       <!--name field-->
       <p class="field-description">
-        Name:<input  type="text" name="name" />
+        Name:<input type="text" name="name" required />
       </p>
       <!--email field-->
-      <p class="field-description">
-        Email:<input type="text" name="email"  />
-      </p>
+      <p class="field-description">Email:<input type="email" name="email" required /></p>
       <!--age field-->
-      <p class="field-description">
-        Age:<input type="text" name="age"  />
-      </p>
+      <p class="field-description">Age:<input type="number" name="age" required/></p>
       <!--message field-->
       <p class="field-description">Message:</p>
-      <textarea name="message" ></textarea>
+      <textarea name="message"></textarea>
       <input type="submit" name="submit" />
     </form>
     <script src="script.js"></script>
