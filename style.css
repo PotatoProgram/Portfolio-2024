@@ -70,3 +70,7 @@ li {
 .constant {
     padding-left: 10px;
 }
+
+.dash {
+    list-style: '- ';
+}
