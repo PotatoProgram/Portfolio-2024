@@ -56,11 +56,16 @@ li {
     padding: 0;
 }
 
+
+/* for the love of floof please fix the cropping problem at some point*/
 .gallery-img {
     height: auto;
     width: auto;
-    max-width: 33%;
+    max-width: 50%;
+    max-height: 200px;
     overflow: hidden;
+    object-fit: cover;
+    object-position: 0;
 }
 
 .gallery-text {
