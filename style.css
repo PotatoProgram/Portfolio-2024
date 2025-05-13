@@ -29,7 +29,8 @@ a {
     width: 95%;
     height: 75%;
     color: black;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px
 }
 
 .doc-renderer {
@@ -70,6 +71,7 @@ li {
 
 .gallery-text {
     padding: 5% 0;
+    margin: 10px;
 }
 
 .constant {
