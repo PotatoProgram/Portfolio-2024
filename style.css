@@ -29,7 +29,8 @@ a {
     width: 95%;
     height: 75%;
     color: black;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px
 }
 
 .doc-renderer {
@@ -56,17 +57,27 @@ li {
     padding: 0;
 }
 
+
+/* for the love of floof please fix the cropping problem at some point*/
 .gallery-img {
-    height:auto;
+    height: auto;
     width: auto;
-    max-width: 33%;
+    max-width: 50%;
+    max-height: 200px;
     overflow: hidden;
+    object-fit: cover;
+    object-position: 0;
 }
 
 .gallery-text {
     padding: 5% 0;
+    margin: 10px;
 }
 
 .constant {
     padding-left: 10px;
+}
+
+.dash {
+    list-style: '- ';
 }
