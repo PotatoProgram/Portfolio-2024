@@ -1,3 +1,5 @@
+[The following is a copy of a review for *You Are NOT Bunnygirl* on my Steam account.]
+
 When I saw that this was almost exclusively the work of one singular person, I was really surprised.
 I would be lying if I said that this was Deltarune or Undertale-tier, but Toby Fox had(/has) a team behind him for that, and besides the 15-or-so beta testers (a number that's really easy to attain and a complete necessity for a game that relies on puzzles this much) and one "Additional Programmer", this game is basically a solo project.
 That being said, there's a lot to work with here: 
